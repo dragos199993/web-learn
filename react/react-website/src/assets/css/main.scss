@@ -1,0 +1,80 @@
+@import 'config';
+
+header{
+    position:relative;
+    background-color:$black;
+    color:$white;
+    min-height:90px;
+    .logo{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        h4{
+          
+        }
+    }
+    nav{
+        
+        ul{
+           float:right; 
+           min-height:90px;
+           display:flex;
+           justify-content: center;
+           align-items: center; 
+           li{
+               display:inline-block;
+               margin:0 30px;
+               a{
+                   color:$white;
+                   @include transition(0.4s ease-in-out);
+                    &:hover{
+                        color:$red;
+                        text-decoration: none;
+                    }
+                }
+           }
+        }
+    }
+}
+
+
+
+section{
+    min-height:85vh;
+    h1{
+        text-align:center;
+        padding:20px 0;
+    }
+}
+
+footer{
+
+    background-color:$darkgrey;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    h6{
+        color:$white;
+    }
+}
+
+
+@media (max-width: 767.99px) {
+    header{
+        .logo{
+            h4{
+                padding-top:40px;
+            }
+        }
+        nav{
+            ul{
+                float:none;
+                padding:0;
+                li{
+                    margin:0 10px;
+                }
+            }
+        }
+    }
+}

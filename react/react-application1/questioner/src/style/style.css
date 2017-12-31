@@ -1,0 +1,9 @@
+#welcomeBack {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#welcomeBack #capitalize {
+  text-transform: capitalize !important;
+}
+/*# sourceMappingURL=style.css.map */

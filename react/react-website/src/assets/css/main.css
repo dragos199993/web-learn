@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #010000;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  position: relative;
+  background-color: #010000;
+  color: #fff;
+  min-height: 90px;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  float: right;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+header nav ul li a {
+  color: #fff;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: #ff1755;
+  text-decoration: none;
+}
+
+section {
+  min-height: 85vh;
+}
+
+section h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h6 {
+  color: #fff;
+}
+
+@media (max-width: 767.99px) {
+  header .logo h4 {
+    padding-top: 40px;
+  }
+  header nav ul {
+    float: none;
+    padding: 0;
+  }
+  header nav ul li {
+    margin: 0 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
